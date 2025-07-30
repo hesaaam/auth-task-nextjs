@@ -1,0 +1,40 @@
+// src/components/Input/Input.module.scss
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 1rem;
+
+  label {
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+    color: #333;
+    text-align: right; // For Farsi UI
+  }
+
+  input {
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    transition: border-color 0.2s;
+    direction: ltr; // Correct direction for phone number input
+    text-align: right;
+
+    &:focus {
+      outline: none;
+      border-color: #0070f3;
+    }
+  }
+
+  .errorBorder {
+    border-color: #ff4d4f;
+  }
+
+  .errorMessage {
+    color: #ff4d4f;
+    font-size: 0.8rem;
+    margin-top: 0.25rem;
+    text-align: right; // For Farsi UI
+  }
+}
