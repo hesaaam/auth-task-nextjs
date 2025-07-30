@@ -50,9 +50,9 @@
                 "value": "770-96-2813"
             },
             "picture": {
-                "large": "https://randomuser.me/api/portraits/women/48.jpg",
-                "medium": "https://randomuser.me/api/portraits/med/women/48.jpg",
-                "thumbnail": "https://randomuser.me/api/portraits/thumb/women/48.jpg"
+                "large": "https://placehold.co/128x128/0070f3/FFFFFF/png?text=User",
+                "medium": "https://placehold.co/72x72",
+                "thumbnail": "https://placehold.co/48x48"
             },
             "nat": "US"
         }
